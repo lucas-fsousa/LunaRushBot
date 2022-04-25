@@ -1,0 +1,40 @@
+
+        # time in seconds
+        configs:
+            #default: False [False | True] / setting to use the mouse in reversed
+            inverted_mouse: False
+        
+            # default 5.0 seconds / default system activity delay
+            default_delay: 5.0
+            
+            # default 1.0 second / looping execution time delay
+            looping_delay: 1.0
+            
+            # default 30.0 seconds / delay for error checking on initial connection screen
+            connection_screen: 30.0
+            
+            # default 15.0 seconds / Used in screen transitions that may experience delays due to game server overload
+            transition_delay: 15.0
+            
+            # recommended 0.2 speed move
+            mouse_delays: 0.2
+            
+            # default: True [False | True] / reset application operation logs
+            reset_logs_on_start: True
+            
+            # default: 2 / number of trying to read the user's screen
+            attempts: 2
+            
+            # default: 30 / timeout in seconds for each execution attempt
+            timeout: 30
+            
+            # default 1800 (30min) / time limit in seconds to reset the game page as a way to prevent possible
+            # map transition bugs
+            safe_reset_game_page: 1800
+
+        # configuration for game specific things
+        game_configs:
+            # default 3 / minimum amount of heroes for the battle to start. [Min: 1 / Max: 3]
+            min_hero_to_start_battle: 3
+            
+        
